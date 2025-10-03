@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Asuntos Jurisdiccionales - Gestión de Demandas</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; display:flex; height:100vh; }
+
+    /* Menú lateral */
+    .sidebar { width:250px; background:#003366; color:#fff; padding:20px; box-sizing:border-box; }
+    .sidebar h2 { font-size:18px; margin-bottom:15px; color:#fff; }
+    .sidebar ul { list-style:none; padding:0; margin:0; }
+    .sidebar li { margin:10px 0; }
+    .sidebar a { color:#fff; text-decoration:none; display:block; padding:8px; border-radius:4px; }
+    .sidebar a:hover { background:#8B1C2C; }
+    .sidebar a.active { background:#8B1C2C; }
+
+    /* Contenido */
+    .content { flex:1; padding:20px; background:#f9f9f9; overflow-y:auto; }
+    .content h1 { color:#003366; margin-top:0; }
+    .content h2 { color:#8B1C2C; margin-top:25px; }
+    .content p { font-size:16px; line-height:1.6; }
+
+    .btn-link {
+      display:inline-block;
+      background:#003366;
+      color:#fff;
+      padding:10px 16px;
+      border-radius:6px;
+      text-decoration:none;
+      margin:6px 0;
+    }
+    .btn-link:hover { background:#8B1C2C; }
+
+    iframe {
+      display:block;
+      margin:15px 0;
+      max-width:100%;
+    }
+  </style>
+</head>
+<body>
+
+
+  <!-- Menú lateral -->
+  <div class="sidebar">
+    <h2>Secciones</h2>
+    <ul>
+      <li><a href="gestion_demandas.html" class="active">Demandas y gestión de expedientes</a></li>
+      <li><a href="que_hacemos.html">Qué hacemos</a></li>
+      <li><a href="https://relatoria.sic.gov.co/#/" target="_blank">Buscador de relatorías</a></li>
+      <li><a href="faq.html">Preguntas frecuentes</a></li>
+      <li><a href="https://sedeelectronica.sic.gov.co/temas/asuntos-jurisdiccionales/notificaciones" target="_blank">Notificaciones</a></li>
+      <li><a href="https://www.sic.gov.co/normas-jurisdiccionales">Normativa</a></li>
+            <li><a href="https://www.sic.gov.co/sentencia-2021">Sentencias</a></li>
+      <li><a href="https://sedeelectronica.sic.gov.co/temas/asuntos-jurisdiccionales/visualizacion-jueces" target="_blank">Jueces SIC</a></li>
+      <li><a href="glosario.html" >Glosario</a></li>
+    </ul>
+  </div>
+
+
+  <!-- Contenido -->
+  <main class="content" id="content">
+    <h1>Gestión de Demandas y Expedientes</h1>
+    <p>En esta página encontrará los canales habilitados para la presentación, radicación y seguimiento de demandas y memoriales ante la Delegatura para Asuntos Jurisdiccionales.</p>
+
+    <!-- Sitio para las Partes -->
+    <h2>Sitio para las Partes</h2>
+    <p>El <strong>Sitio para las Partes</strong> hace parte del programa de <em>Justicia Digital</em> de la SIC. Permite:</p>
+    <ul>
+      <li>Radicar demandas en materia de <strong>Protección al Consumidor</strong> y <strong>Competencia Desleal y Propiedad Industrial</strong>.</li>
+      <li>Presentar memoriales al proceso.</li>
+      <li>Vincular o desvincular partes.</li>
+      <li>Realizar seguimiento al estado de la demanda.</li>
+      <li>Solicitar la visualización de expedientes.</li>
+    </ul>
+    <a class="btn-link" href="https://identidaddigital.sic.gov.co/auth/realms/sicpublico/protocol/openid-connect/auth?client_id=sitiopartes&redirect_uri=https%3A%2F%2Fsitiopartesjurisdiccional.sic.gov.co%2Fsitio-partes%2F" target="_blank">Acceder al Sitio para las Partes</a>
+
+    <h3>Material de apoyo</h3>
+    <p><a href="https://www.sic.gov.co/sites/default/files/Instructivo_consumidor_agosto2024.pdf" target="_blank">📄 PDF: Instructivo demandas en materia de Protección al Consumidor</a></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5QBwOJZmXEk" frameborder="0" allowfullscreen></iframe>
+
+    <p><a href="https://www.sic.gov.co/sites/default/files/Instructivo_competencia_agosto2024.pdf" target="_blank">📄 PDF: Instructivo demandas en materia de Competencia Desleal y Propiedad Industrial</a></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BeeZASNf7jk" frameborder="0" allowfullscreen></iframe>
+
+    <!-- Servicios en Línea -->
+    <h2>Servicios en Línea</h2>
+    <p>Este aplicativo está destinado a la gestión y consulta de expedientes radicados <strong>con anterioridad a [FECHA]</strong>. </p>
+    <a class="btn-link" href="https://identidaddigital.sic.gov.co/auth/realms/sicpublico/protocol/openid-connect/auth?client_id=servilinea&redirect_uri=https%3A%2F%2Fservicioslinea.sic.gov.co%2FserviLineaSSO%2F" target="_blank">Acceder a Servicios en Línea</a>
+
+    <!-- Consulta externa de trámites -->
+    <h2>Consulta Externa de Trámites</h2>
+    <p>La consulta externa de trámites está disponible para la revisión de <strong>[tipo de expedientes]</strong>.</p>
+    <a class="btn-link" href="https://serviciospub.sic.gov.co/Sic2/Tramites/Radicacion/Radicacion/Consultas/ConsultaRadicacion.php" target="_blank">Acceder a Consulta Externa</a>
+
+
+    <!-- Nueva sección -->
+<h2>¿Qué debo tener en cuenta para iniciar un trámite en esta Delegatura?</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uruUf-gXK6o" frameborder="0" allowfullscreen></iframe>
+
+<p>
+  Considerando que una de las funciones que cumple la Delegatura para Asuntos Jurisdiccionales corresponde a la de 
+  juez que resuelve conflictos particulares y concretos, es necesario que el demandante tenga en cuenta lo siguiente:
+</p>
+
+<p>
+  <strong>1. Radicación de la demanda:</strong>  
+  Se requiere de la radicación de una demanda, conforme lo dispone el Código General del Proceso.  
+  Debe tenerse presente que las demandas son diferentes a las quejas y a las denuncias.  
+  En los casos de las acciones de protección al consumidor, para radicar una demanda el consumidor puede acudir al formato en línea <em>“Demande aquí”</em>.
+</p>
+
+<p>
+  El demandante también puede acudir a los formatos que se encuentran en la página:  
+  Banner <em>“Asuntos Jurisdiccionales”</em> → <em>¿Cómo hacer una demanda?</em> → <em>Modelo de demanda</em>,  
+  y radicarla directamente en la Superintendencia de Industria y Comercio.
+</p>
+
+<p>
+  <strong>2. Naturaleza de la demanda del consumidor:</strong>  
+  Una demanda del consumidor es el acto inicial del proceso, a través del cual un consumidor o usuario hace valer sus derechos cuando, 
+  en el marco de una relación de consumo, se ven afectados por los actos o las omisiones de proveedores de bienes y servicios.  
+  Es el primer paso para tramitar los procesos en los que:
+</p>
+<ul>
+  <li>Se exija la efectividad de la garantía.</li>
+  <li>Se pretenda la obtención de la protección contractual frente a cláusulas abusivas.</li>
+  <li>Se reclame la indemnización de los daños ocurridos por la prestación de servicios o entrega de bienes.</li>
+  <li>Se denuncie publicidad e información engañosa.</li>
+  <li>Se evidencie la vulneración de normas de protección al consumidor o usuario.</li>
+</ul>
+
+<p>
+  Con una demanda, usted puede elevar pretensiones a su favor para que, al cabo del trámite, se restablezcan sus derechos, 
+  siempre que previamente se haya acudido al proveedor o comercializador a realizar el <strong>reclamo directo</strong>.
+</p>
+
+<p>
+  <strong>3. Requisito de procedibilidad:</strong>  
+  Para promover las acciones jurisdiccionales, el demandante deberá cumplir con el requisito de procedibilidad previsto en la ley.  
+  En el caso de la acción de protección al consumidor, es necesario agotar el reclamo directo ante el proveedor o productor antes de acudir a la SIC.  
+  Sin embargo, cuando se solicite el decreto y práctica de <strong>medidas cautelares</strong>, no será necesario agotar este requisito.
+</p>
+
+<p>
+  <strong>4. Representación por abogado:</strong>  
+  No se requiere abogado cuando el valor de las pretensiones no exceda los <strong>40 salarios mínimos legales mensuales vigentes</strong> (mínima cuantía).
+</p>
+
+<p>
+  <strong>5. Notificaciones:</strong>  
+  Por tratarse de un proceso judicial, las notificaciones siguen las reglas previstas en el Código General del Proceso.  
+  Las partes quedarán notificadas por <em>Estado</em>, para lo cual deberán verificar constantemente el número de radicación asignado en la página de la SIC:  
+  <a href="http://www.sic.gov.co/notificaciones" target="_blank">www.sic.gov.co/notificaciones</a>.
+</p>
+
+<p>
+  Recuerde que <strong>únicamente se notificará personalmente</strong> el auto que admite la demanda al demandado.  
+  Las demás providencias que se profieran a lo largo del proceso se harán por Estado.
+</p>
+
+
+<p>
+  <strong>6. Terminología correcta:</strong>  
+  Para el trámite de sus procesos jurisdiccionales no emplee expresiones como <em>"queja"</em>, <em>"denuncia"</em> o <em>"reclamos"</em>,  
+  ya que no corresponden al proceso judicial en el que se pretende la satisfacción de una pretensión particular y concreta.
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MlBrIx48WUg" frameborder="0" allowfullscreen></iframe>
+
+<h2>Modelos descargables</h2>
+
+<div style="margin-top:30px;"></div>
+  <a class="btn-link" href="formatos/reclamo_directo.docx" target="_blank">Reclamo directo</a>
+  <a class="btn-link" href="formatos/demanda.pdf" target="_blank">Modelo demanda</a>
+    <a class="btn-link" href="formatos/desistimiento.docx" target="_blank">Desistimiento</a>
+    <a class="btn-link" href="formatos/noticia_Incumplimiento.docx" target="_blank">Incumplimiento</a>
+
+</div>
+
+  </main>
+  <script>
+    // Carga de secciones internas
+    function loadContent(page) {
+      fetch(page)
+        .then(r => r.text())
+        .then(html => { document.getElementById('content').innerHTML = html; })
+        .catch(() => { document.getElementById('content').innerHTML = "<p>Error al cargar la sección.</p>"; });
+    }
+
+    // Estado activo en menú
+    function setActive(link){
+      document.querySelectorAll('.sidebar a').forEach(a => a.classList.remove('active'));
+      link.classList.add('active');
+    }
+  </script>
+
+</body>
+</html>

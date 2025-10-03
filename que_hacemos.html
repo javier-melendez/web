@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asuntos Jurisdiccionales - Qué hacemos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+    }
+
+    /* Menú lateral */
+    .sidebar {
+      width: 250px;
+      background-color: #003366;
+      color: #fff;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .sidebar h2 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: #fff;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sidebar ul li {
+      margin: 10px 0;
+    }
+
+    .sidebar ul li a {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      padding: 8px;
+      border-radius: 4px;
+    }
+
+    .sidebar ul li a:hover {
+      background-color: #8B1C2C;
+    }
+
+    /* Contenido principal */
+    .content {
+      flex: 1;
+      padding: 20px;
+      background-color: #f9f9f9;
+      overflow-y: auto;
+    }
+
+    .content h1, .content h2 {
+      color: #003366;
+    }
+
+    .content p {
+      font-size: 16px;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    .content ul {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-left: 20px;
+    }
+
+    .highlight {
+      background: #e6f0ff;
+      border-left: 4px solid #003366;
+      padding: 10px;
+      margin: 15px 0;
+      border-radius: 4px;
+    }
+
+    img.org-chart {
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+      border: 1px solid #ccc;
+    }
+
+    iframe {
+      display: block;
+      margin: 20px 0;
+      max-width: 100%;
+    }
+
+    /* Estilos acordeón */
+    .accordion-btn {
+      background:#003366;
+      color:#fff;
+      cursor:pointer;
+      padding:12px;
+      width:100%;
+      text-align:left;
+      border:none;
+      outline:none;
+      transition:background .3s;
+      margin-top:6px;
+      border-radius:4px;
+      font-size:16px;
+    }
+
+    .accordion-btn:hover {
+      background:#8B1C2C;
+    }
+
+    .accordion-btn.sub {
+      background:#555;
+      font-size:14px;
+      margin-left:15px;
+    }
+
+    .accordion-btn.sub:hover {
+      background:#8B1C2C;
+    }
+
+    .accordion-panel {
+      display:none;
+      padding:12px;
+      background:#fff;
+      border-left:3px solid #003366;
+      margin-bottom:6px;
+    }
+
+    .accordion-panel.sub {
+      border-left:3px solid #555;
+      margin-left:15px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Menú lateral -->
+<div class="sidebar">
+  <h2>Secciones</h2>
+  <ul>
+    <li><a href="gestion_demandas.html">Demandas y gestión de expedientes</a></li>
+    <li><a href="que_hacemos.html" class="active">Qué hacemos</a></li>
+    <li><a href="https://relatoria.sic.gov.co/#/" target="_blank">Buscador de relatorías</a></li>
+    <li><a href="faq.html">Preguntas frecuentes</a></li>
+    <li><a href="https://sedeelectronica.sic.gov.co/temas/asuntos-jurisdiccionales/notificaciones" target="_blank">Notificaciones</a></li>
+    <li><a href="https://www.sic.gov.co/normas-jurisdiccionales">Normativa</a></li>
+    <li><a href="https://www.sic.gov.co/sentencia-2021">Sentencias</a></li>
+    <li><a href="https://sedeelectronica.sic.gov.co/temas/asuntos-jurisdiccionales/visualizacion-jueces" target="_blank">Jueces SIC</a></li>
+    <li><a href="glosario.html">Glosario</a></li>
+  </ul>
+</div>
+
+  <!-- Contenido dinámico -->
+  <div class="content" id="content">
+
+    <h1>¿Qué hacemos?</h1>
+    <p>
+      La Delegatura para Asuntos Jurisdiccionales se encarga de decidir judicialmente sobre el 
+      restablecimiento de los derechos de los consumidores; la existencia de actos de 
+      <strong>competencia desleal</strong> y la <strong>infracción de derechos de propiedad industrial</strong>.
+    </p>
+
+    <p>
+      Adicionalmente, realiza el seguimiento efectivo del cumplimiento de lo ordenado en las 
+      sentencias, conciliaciones y transacciones que se realicen en materia de protección al consumidor.
+    </p>
+
+    <!-- Video incrustado antes de “Contacto” -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IlOTp8INwnc" frameborder="0" allowfullscreen></iframe>
+
+    <h2>Contacto</h2>
+    <p>
+      Los funcionarios de la Delegatura para Asuntos Jurisdiccionales actúan como jueces de la república, 
+      por lo tanto, no se comunican directamente con el usuario. 
+    </p>
+    <p>
+      La única forma en que las partes de un proceso jurisdiccional pueden contactar al juez 
+      (funcionario de la SIC) es a través de los memoriales que radican al interior del proceso. 
+      A estos se da respuesta mediante providencias judiciales, que corresponden a autos y sentencias, 
+      las cuales se emiten en las correspondientes etapas procesales establecidas en la ley.
+    </p>
+    <div class="highlight">
+      <p><strong>Tel:</strong> (571) 5870256 Ext. 50001</p>
+    </div>
+    
+    <h2>Equipo Asuntos Jurisdiccionales</h2>
+
+    <!-- Imagen del organigrama -->
+    <img class="org-chart" src="https://www.sic.gov.co//sites/default/files/images/2019/OrganigramaAsuntosJurisdiccional%20(1).jpg" alt="Organigrama Delegatura Asuntos Jurisdiccionales">
+
+    <p>
+      La Delegatura para Asuntos Jurisdiccionales trabaja en dos grandes temas.  
+      Selecciona cada uno para desplegar más información:
+    </p>
+
+    <!-- Acordeón -->
+    <div class="accordion">
+
+      <!-- Sección 1: Competencia desleal -->
+      <button class="accordion-btn">Competencia Desleal y Propiedad Industrial</button>
+      <div class="accordion-panel">
+
+        <h3>Grupo de Competencia Desleal y Propiedad Industrial</h3>
+        <p>
+          El Grupo de Competencia Desleal y Propiedad Industrial es una dependencia de la Delegatura para Asuntos Jurisdiccionales encargada de tramitar las acciones preventivas, declarativas y de condena que los afectados por actos de competencia desleal promuevan ante la SIC.  
+          También se tramitan ante este grupo los procesos de infracción de derechos de Propiedad Industrial, que corresponden a trámites cuya competencia fue asignada a la SIC por el Código General del Proceso (Ley 1564 de 2012).
+        </p>
+        <p>
+          Al igual que las demás dependencias de la Delegatura, en este grupo se tramitan demandas judiciales que se adelantan a través del proceso verbal previsto en el Código General del Proceso, en desarrollo de las facultades jurisdiccionales atribuidas a esta Entidad.
+        </p>
+        <p>
+          <strong>Tenga en cuenta:</strong> Las demandas de competencia desleal y de propiedad industrial deben ser presentadas a través de abogado.
+        </p>
+
+        <h3>Competencia Desleal</h3>
+        <p>
+          El Régimen de Competencia contempla los actos de competencia desleal establecidos en la Ley 256 de 1996 que afecten o tengan impacto en el mercado. Estos son:
+        </p>
+        <ul>
+          <li>Actos de desviación de la clientela</li>
+          <li>Actos de desorganización</li>
+          <li>Actos de confusión</li>
+          <li>Actos de engaño</li>
+          <li>Actos de descrédito</li>
+          <li>Actos de comparación</li>
+          <li>Actos de imitación</li>
+          <li>Explotación de la reputación ajena</li>
+          <li>Violación de secretos</li>
+          <li>Inducción a la ruptura contractual</li>
+          <li>Violación de normas</li>
+          <li>Pactos desleales de exclusividad</li>
+        </ul>
+
+        <h3>Propiedad Industrial</h3>
+        <p>
+          El Régimen de Propiedad Industrial, a través de la Decisión 486 de 2000, contempla una serie de derechos que son objeto de titularidad y que pueden ser vulnerados por parte de terceros:
+        </p>
+        <ul>
+          <li>Patentes</li>
+          <li>Modelos de utilidad</li>
+          <li>Esquemas de trazado de circuitos integrados</li>
+          <li>Diseños industriales</li>
+          <li>Marcas</li>
+          <li>Nombre comercial</li>
+          <li>Enseña comercial</li>
+          <li>Lemas comerciales</li>
+          <li>Denominaciones de origen</li>
+        </ul>
+      </div>
+
+      <!-- Sección 2: Protección al consumidor -->
+      <button class="accordion-btn">Protección al consumidor</button>
+      <div class="accordion-panel">
+        <p>
+          En materia de protección al consumidor, la Delegatura cuenta con cuatro grupos de trabajo.  
+          Selecciona cada uno para conocer más información:
+        </p>
+
+        <!-- Subacordeón: Grupo de Trabajo de Secretaría -->
+        <button class="accordion-btn sub">Grupo de Trabajo de Secretaría</button>
+        <div class="accordion-panel sub">
+          <p>
+            Ejemplo: Este grupo se encarga de la gestión documental, radicación y custodia de los procesos, así como de la elaboración de informes secretariales.
+          </p>
+        </div>
+
+        <!-- Subacordeón: Grupo de Trabajo de Calificación -->
+        <button class="accordion-btn sub">Grupo de Trabajo de Calificación</button>
+        <div class="accordion-panel sub">
+          <p>
+            Ejemplo: Este grupo realiza la calificación de las demandas y solicitudes para verificar que cumplan con los requisitos legales antes de su admisión.
+          </p>
+        </div>
+
+        <!-- Subacordeón: Grupo de Trabajo de Defensa del Consumidor -->
+        <button class="accordion-btn sub">Grupo de Trabajo de Defensa del Consumidor</button>
+        <div class="accordion-panel sub">
+          <p>
+            Ejemplo: Atiende y decide sobre las demandas relacionadas con la protección de los derechos de los consumidores.
+          </p>
+        </div>
+
+        <!-- Subacordeón: Grupo de Trabajo para la Verificación del Cumplimiento -->
+        <button class="accordion-btn sub">Grupo de Trabajo para la Verificación del Cumplimiento</button>
+        <div class="accordion-panel sub">
+          <p>
+            El Grupo de Trabajo para la Verificación del Cumplimiento está conformado por los jueces asignados a la Delegatura para Asuntos Jurisdiccionales. Su función es adelantar la fase judicial de la acción de protección al consumidor que tiene como fin comprobar que se cumplan las sentencias, conciliaciones y transacciones en materia de protección al consumidor.
+          </p>
+          <p>
+            En otras palabras, este trámite garantiza que lo ordenado en una sentencia, o lo acordado en una conciliación o transacción, realmente se cumpla: que se pague lo debido, se entregue un producto, se repare un bien o se preste el servicio en las condiciones pactadas, entre otros.
+          </p>
+          <p>
+            Si la orden no se cumple, el consumidor puede presentar una noticia de incumplimiento máximo dentro de los 30 días hábiles siguientes al vencimiento del plazo otorgado en la sentencia, conciliación y transacción para que se inicie el trámite de verificación. De ser procedente, se pueden imponer multas de hasta una séptima parte del salario mínimo legal mensual vigente.
+          </p>
+          <p>
+            De esta manera, se asegura que las decisiones a favor de los consumidores no se queden en el papel, sino que se hagan efectivas en la vida real.
+          </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+// Script acordeón mejorado (soporta anidamiento)
+document.addEventListener('click', function(e){
+  if (e.target.classList.contains('accordion-btn')) {
+    e.preventDefault();
+    const panel = e.target.nextElementSibling;
+
+    if (panel.style.display === 'block') {
+      panel.style.display = 'none';
+    } else {
+      panel.style.display = 'block';
+    }
+  }
+});
+
+function loadContent(page) {
+  fetch(page)
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('content').innerHTML = data;
+    })
+    .catch(err => {
+      document.getElementById('content').innerHTML = "<p>Error al cargar la sección.</p>";
+    });
+}
+</script>
+
+</body>
+</html>
