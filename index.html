@@ -138,7 +138,7 @@
     <div class="carousel-slide">Banner 2: Noticia destacada 1</div>
     <a class="carousel-slide" href="gestion_demandas.html">Banner 3: Demandas y gestión de expedientes</a>
     <div class="carousel-slide">Banner 4: Noticia destacada 2</div>
-    <a class="carousel-slide" href="faq.html">Banner 5: Preguntas frecuentes</a>
+    <a class="carousel-slide" href="faq.html">Banner 5: Lo más consultado</a>
     <button class="carousel-btn prev" aria-label="Anterior">&#10094;</button>
     <button class="carousel-btn next" aria-label="Siguiente">&#10095;</button>
 </section>
@@ -211,10 +211,11 @@
 
   <!-- Accesos -->
   <section class="accesos">
+          <a class="acceso" href="que_hacemos.html">Qué hacemos</a>
     <a class="acceso" href="gestion_demandas.html">Demandas y gestión de expedientes</a>
-    <a class="acceso" href="que_hacemos.html">Qué hacemos</a>
+
     <a class="acceso" href="https://relatoria.sic.gov.co/#/" target="_blank" rel="noopener">Buscador de relatorías</a>
-    <a class="acceso" href="faq.html">Preguntas frecuentes</a>
+    <a class="acceso" href="faq.html">Lo más consultado</a>
   </section>
 
   <!-- Botones -->
@@ -229,7 +230,43 @@
     <a href="https://sedeelectronica.sic.gov.co/temas/asuntos-jurisdiccionales/visualizacion-jueces" target="_blank" rel="noopener">
       <button>Jueces SIC</button>
     </a>
+
+          <a href="https://sedeelectronica.sic.gov.co/noticias?combine=tutela&field_clasificacion_target_id=All&field_fecha_publicacion_value=&nodes_granular_dates=&exposed_year=All&exposed_month=All" target="_blank" rel="noopener">
+      <button>Comunicaciones</button>
+    </a>
   </section>
+
+  <!-- Banner: Encuentra tu sala de audiencias -->
+  <section class="banner-salas">
+    <a class="banner-salas__link" href="https://sedeelectronica.sic.gov.co/temas/asuntos-jurisdiccionales/salas-virtuales" target="_blank" rel="noopener">
+      Encuentra tu sala de audiencias
+    </a>
+  </section>
+
+  <style>
+    .banner-salas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #00336610;
+      padding: 18px 12px;
+      margin: 0 20px 30px 20px;
+      border: 1px solid #cfd8e3;
+      border-radius: 8px;
+    }
+    .banner-salas__link {
+      display: inline-block;
+      background: #003366;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+    .banner-salas__link:hover {
+      background: #00264d;
+    }
+  </style>
 
 <!-- Footer institucional -->
   <footer>
